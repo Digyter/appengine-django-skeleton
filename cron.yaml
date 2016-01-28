@@ -1,0 +1,4 @@
+cron:
+- description: test cron
+  url: /polls/
+  schedule: every 1 mins

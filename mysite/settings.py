@@ -105,10 +105,10 @@ else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'NAME': '<your-database-name>',
-            'USER': '<your-database-user>',
-            'PASSWORD': '<your-database-password>',
-            'HOST': '<your-database-host>',
+            'NAME': 'db_polls',
+            'USER': 'root',
+            'PASSWORD': '',
+            'HOST': '127.0.0.1',
             'PORT': '3306',
         }
     }
